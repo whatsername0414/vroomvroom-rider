@@ -1,0 +1,22 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://api.mapbox.com/downloads/v2/releases/maven"
+            authentication {
+                basic(BasicAuthentication)
+            }
+            credentials {
+                // Do not change the username below.
+                // This should always be `mapbox` (not your username).
+                username = "mapbox"
+                // Use the secret token you stored in gradle.properties as the password
+                password = "sk.eyJ1Ijoid2g0dHNlcm5hbWUiLCJhIjoiY2w1MTYzcjZvMDJtaTNjbzc4NWtnZGE0eSJ9.mXxKZckpaA29yB7SvtGz4g"
+            }
+        }
+    }
+}
+rootProject.name = "VroomVroom Rider"
+include ':app'

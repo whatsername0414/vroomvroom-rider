@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="order"
+            type="com.vroomvroomrider.android.data.model.order.Order" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_16"
+            app:cardElevation="@dimen/dp_4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:cardCornerRadius="@dimen/dp_16">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="@dimen/dp_24"
+                android:paddingVertical="@dimen/margin_mid">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{`Paid by ` + order.payment.method}"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="Paid by Cash On Delivery" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/merchantLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_8"
+                    app:layout_constraintTop_toBottomOf="@+id/textView23">
+
+                    <ImageView
+                        android:id="@+id/merchantIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_store"
+                        app:layout_constraintBottom_toBottomOf="@+id/totalPriceTv"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/merchantNameTv" />
+
+                    <TextView
+                        android:id="@+id/merchantNameTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:textSize="16sp"
+                        android:text="@{order.merchant.name}"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        app:layout_constraintStart_toEndOf="@+id/merchantIv"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="McDonald's Tabaco" />
+
+                    <TextView
+                        android:id="@+id/totalOrderTv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="32dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/merchantIv"
+                        app:layout_constraintTop_toBottomOf="@+id/merchantNameTv"
+                        tools:text="Total Item: 2" />
+
+                    <TextView
+                        android:id="@+id/totalPriceTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginBottom="8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/merchantIv"
+                        app:layout_constraintTop_toBottomOf="@+id/totalOrderTv"
+                        tools:text="Total Price: 325" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/customerLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_8"
+                    app:layout_constraintTop_toBottomOf="@+id/merchantLayout">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_pinned_user"
+                        app:layout_constraintBottom_toBottomOf="@+id/textView20"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/textView25" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@{order.customer.name}"
+                        android:textSize="16sp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        app:layout_constraintStart_toEndOf="@+id/imageView11"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="Macking Banas" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="32dp"
+                        android:text="@{order.deliveryAddress.address ?? `Not Provided`}"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView11"
+                        app:layout_constraintTop_toBottomOf="@+id/textView25"
+                        tools:text="Tomas Cabiles St." />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@{order.deliveryAddress.city ?? `Not Provided`}"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView11"
+                        app:layout_constraintTop_toBottomOf="@+id/textView19"
+                        tools:text="Tabaco City" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/commentTitleTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_16"
+                    android:text="@string/comment"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/customerLayout" />
+
+                <TextView
+                    android:id="@+id/commentValueTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_8"
+                    tools:text="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:text="@{order.comment}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/commentTitleTv" />
+
+                <androidx.constraintlayout.widget.Group
+                    android:id="@+id/commentGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:constraint_referenced_ids="commentTitleTv, commentValueTv"
+                    tools:layout_editor_absoluteX="24dp"
+                    tools:layout_editor_absoluteY="24dp" />
+
+                <include
+                    android:id="@+id/sliderLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_16"
+                    layout="@layout/slider_layout"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    app:layout_constraintTop_toBottomOf="@+id/commentValueTv"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

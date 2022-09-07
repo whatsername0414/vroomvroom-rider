@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.ncorti.slidetoact.SlideToActView
+        android:id="@+id/pickOrderSlide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:slider_height="?attr/actionBarSize"
+        app:text="@string/pick_order"
+        app:text_size="14sp"
+        app:icon_margin="@dimen/dp_8"
+        app:slider_icon="@drawable/ic_next_red_a30"
+        app:animate_completion="false"
+        android:background="@drawable/bg_gradient_red"
+        app:outer_color="@android:color/transparent"
+        app:slider_icon_color="@color/red_a30"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

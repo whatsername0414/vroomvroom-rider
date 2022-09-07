@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Macking/.gradle/caches/transforms-3/0d28221ca1b7a1eb7be62ec83bedfec5/transformed/ui-tripprogress-2.5.1/res/drawable-anydpi-v24/mapbox_ic_pin.xml" value="0.151" />
+        <entry key="..\:/Users/Macking/.gradle/caches/transforms-3/0d28221ca1b7a1eb7be62ec83bedfec5/transformed/ui-tripprogress-2.5.1/res/drawable-anydpi-v24/mapbox_ic_time.xml" value="0.151" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable-hdpi/bg_gray_a5a.xml" value="0.137" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable-hdpi/bg_red_ffc_rounded_16dp.xml" value="0.138" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable-hdpi/ic_close_maroon.xml" value="0.151" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable-hdpi/ic_profile.xml" value="0.138" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable-hdpi/ic_warning.xml" value="0.138" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable-mdpi/account_selector.xml" value="0.1355" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable-mdpi/ic_account.xml" value="0.1355" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable-mdpi/ic_account_gray_7f7.xml" value="0.1355" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable-mdpi/ic_home_gray_7f7.xml" value="0.1355" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable-xxxhdpi/bg_white_fff_rounded_10dp_bottom.xml" value="0.1465" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable-xxxhdpi/bg_white_fff_rounded_16dp_stroke_filled.xml" value="0.146" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable-xxxhdpi/ic_arrow_left.xml" value="0.146" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/bg_gradient_gray.xml" value="0.137" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/bg_gradient_red.xml" value="0.149" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/bg_gray_a5a_rounded_100dp.xml" value="0.151" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/bg_gray_e5e_rounded_100dp.xml" value="0.162" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/bg_gray_f2f_rounded_100dp.xml" value="0.137" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/bg_gray_f2f_rounded_16dp.xml" value="0.1385" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/bg_red_a30_2_rounded_16dp.xml" value="0.137" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/bg_red_a30_rounded_16dp.xml" value="0.146" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/bg_red_f8e_rounded_16dp_stroke.xml" value="0.137" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/bg_white_fff_rounded_10dp_bottom.xml" value="0.1465" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/bg_white_fff_rounded_16dp.xml" value="0.137" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/bg_white_fff_rounded_16dp_stroke_filled.xml" value="0.146" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/bg_white_fff_rounded_32dp_top.xml" value="0.151" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/browser_selector.xml" value="0.1355" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/compass_selector.xml" value="0.1355" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/gray.xml" value="0.137" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/home_scrolled_selector.xml" value="0.1355" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/home_selector.xml" value="0.1465" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_arrow_down.xml" value="0.151" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_arrow_left.xml" value="0.146" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_arrow_left_white.xml" value="0.138" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_arrow_up.xml" value="0.151" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_arrow_up_left_gray_7f7.xml" value="0.1385" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_check_white.xml" value="0.137" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_close_maroon.xml" value="0.151" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_compass.xml" value="0.1355" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_compass_gray_7f7.xml" value="0.1355" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_google.xml" value="0.138" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_hide.xml" value="0.138" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_home.xml" value="0.1465" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_invoice.xml" value="0.146" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_location.xml" value="0.1385" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_my_location.xml" value="0.1385" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_next_gray_7f7.xml" value="0.137" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_next_red_a30.xml" value="0.138" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_otp.xml" value="0.138" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_package_delivered.xml" value="0.1355" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_package_delivered_gray_7f7.xml" value="0.1355" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_padlock.xml" value="0.138" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_pin_user_gray.xml" value="0.137" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_pinned_user.xml" value="0.1355" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_profile.xml" value="0.138" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_search.xml" value="0.1385" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_store.xml" value="0.1355" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_view.xml" value="0.138" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/ic_warning.xml" value="0.138" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/mapbox_navigation_puck_icon.xml" value="0.137" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/password_toggle_icon.xml" value="0.138" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/drawable/receipt_selector.xml" value="0.1355" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/appbar_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/common_alert_dialog_layout.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/common_notice_layout.xml" value="0.22521367521367522" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/fragment_collect.xml" value="0.2" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/fragment_common_complete.xml" value="0.176" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/fragment_delivered.xml" value="0.22521367521367522" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/fragment_delivery.xml" value="0.2" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/fragment_home.xml" value="0.11464147702876772" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/fragment_journey.xml" value="0.22521367521367522" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/fragment_login.xml" value="0.2" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/fragment_navigation.xml" value="0.2" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/fragment_order_detail_shimmer.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/fragment_register.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/item_appbar_layout.xml" value="0.29322916666666665" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/item_order.xml" value="0.264" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/item_order_product.xml" value="0.2" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/item_order_product_shimmer.xml" value="0.1265625" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/item_suggestion.xml" value="0.22863247863247863" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/navigation_bottom_sheet.xml" value="0.2921875" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/navigation_bottom_sheet_dialog_layout.xml" value="0.23974358974358975" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/placed_order_dialog_layout.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/slider_layout.xml" value="0.136" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/layout/user_info_layout.xml" value="0.2405982905982906" />
+        <entry key="..\:/Users/Macking/AndroidStudioProjects/VroomVroomRider/app/src/main/res/menu/bottom_menu.xml" value="0.23114035087719298" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
